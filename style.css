@@ -425,9 +425,3 @@ body {
 /* -------------------- */
 
 /* page-4-left-side */
-
-.page-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
