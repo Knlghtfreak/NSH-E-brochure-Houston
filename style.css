@@ -79,7 +79,7 @@ body {
 .banner {
   margin: 0;
   padding: 0;
-  height: calc(100vh - 50%);
+  height: calc(100vh - 40%);
   border: 0;
   overflow: hidden;
   border-bottom: 20px solid #1a1a1a;
@@ -87,7 +87,7 @@ body {
 
 .banner img {
   width: 100%;
-  height: calc(100vh - 50%);
+  height: calc(100vh - 100%);
   object-fit: cover;
 }
 
