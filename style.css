@@ -425,3 +425,76 @@ body {
 /* -------------------- */
 
 /* page-4-left-side */
+
+.crafted-to-perfection{
+  width: 100%;
+  height: 45vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.page-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-page-4{
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-page-4{
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-txt-4{
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+  height: 100%;
+}
+
+.right-txt-4 h1{
+  padding: 0 30px 0 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.right-txt-4 p{
+  padding: 0 30px 0 30px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+}
+
+.bottom-page-4{
+  width: 100%;
+  flex: 1;
+}
+
+
+.bottom-page-4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left-img-4 img{
+  width: 350px;
+  height: 210px;
+}
