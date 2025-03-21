@@ -123,3 +123,32 @@ body {
 
 /* page-2 */
 
+.page-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.city-info-page{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 948px;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+}
+
+.left-page-2{
+    background-color: aqua;
+    width: calc(100% - 50%);
+    height: 100vh;
+}
+
+.right-page-2{
+    background-color: yellow;
+    width: calc(100% - 50%);
+    height: 100vh;
+}
