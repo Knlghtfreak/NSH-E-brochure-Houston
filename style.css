@@ -66,7 +66,9 @@ body {
 }
 
 .home-page-body {
-  height: 930px;
+  position: absolute;
+  top: 0;
+  height: 948px;
   width: 50vw;
   overflow: hidden;
   background-color: #fff;
@@ -119,4 +121,3 @@ body {
 /* -------------------- */
 
 /* page-2 */
-
