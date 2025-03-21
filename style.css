@@ -29,7 +29,6 @@ body {
   flex-shrink: 0;
   height: 100vh;
   background-color: #e6e6e6;
-  /* border: 2px solid #999; */
   display: flex;
   align-items: center;
   justify-content: center;
