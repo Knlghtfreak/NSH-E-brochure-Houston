@@ -29,7 +29,7 @@ body {
   flex-shrink: 0;
   height: 100vh;
   background-color: #e6e6e6;
-  border: 2px solid #999;
+  /* border: 2px solid #999; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,7 +288,7 @@ body {
 
 /* -------------------- */
 
-/* page-3 */
+/* page-3-left-side */
 
 .Neighborhoods-and-map {
   height: 45vw;
@@ -306,7 +306,6 @@ body {
 }
 
 .left-page-3{
-  background-color: #4b4a4a;
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
@@ -323,18 +322,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .left-txt{
   width: 50%;
   height: 100%;
-  background-color: #774242;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+}
+
+.left-txt h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.left-txt p{
+  margin: 15px 0 15px 0;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
 }
 
 .right-img{
   width: 50%;
   height: 100%;
-  background-color: #dd8585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.right-img img{
+  width: 100%;
+  height: 180px;
 }
 
 .bottom-page-3{
@@ -342,3 +370,57 @@ body {
   width: 100%;
   flex: 0.8;
 }
+
+.bottom-page-3 img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* -------------------- */
+
+/* page-3-right-side */
+
+.right-page-3 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-top-page-3{
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.right-top-page-3 img{
+  margin: -1px 0 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.right-bottom-page-3{
+  background-image: url(./Asset/Page-2/BG-Black.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.right-bottom-page-3 p{
+  margin: 0 50px 0 50px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/* -------------------- */
