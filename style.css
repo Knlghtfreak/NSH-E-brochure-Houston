@@ -63,6 +63,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aqua !important;
 }
 
 .home-page-body {
