@@ -27,7 +27,7 @@ body {
   width: 100%;
   flex-shrink: 0;
   height: 100vh;
-  background-color: #ccc;
+  background-color: #e6e6e6;
   border: 2px solid #999;
   display: flex;
   align-items: center;
@@ -63,7 +63,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua !important;
 }
 
 .home-page-body {
