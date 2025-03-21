@@ -78,7 +78,7 @@ body {
 .banner {
   margin: 0;
   padding: 0;
-  height: 450px;
+  height: calc(100vh - 50%);
   border: 0;
   overflow: hidden;
   border-bottom: 20px solid #1a1a1a;
@@ -86,7 +86,7 @@ body {
 
 .banner img {
   width: 100%;
-  height: 450px;
+  height: calc(100vh - 50%);
   object-fit: cover;
 }
 
