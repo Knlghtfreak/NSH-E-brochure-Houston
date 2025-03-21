@@ -6,13 +6,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  height: 100vh;
   background-color: #f0f0f0;
 }
 
 .slider-container {
   position: relative;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  max-width: 100vw;
   margin: auto;
   overflow: hidden;
 }
@@ -34,6 +36,8 @@ body {
   justify-content: center;
   font-size: 40px;
   font-weight: bold;
+  aspect-ratio: 16/9;
+  overflow: hidden;
 }
 
 .arrow {
@@ -66,10 +70,10 @@ body {
 }
 
 .home-page-body {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 948px;
+  /* position: absolute; */
+  /* top: 0;
+  bottom: 0; */
+  height: 51vw;
   width: 50vw;
   overflow: hidden;
   background-color: #fff;
@@ -115,9 +119,9 @@ body {
 }
 
 .info h2 {
-  padding: 70px 0 0 0;
+  padding:30px 0 0 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: black;
 }
@@ -134,10 +138,10 @@ body {
 
 
 .city-info-page{
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  bottom: 0;
-  height: 948px;
+  bottom: 0; */
+  height: 51vw;
   width: 100vw;
   overflow: hidden;
   background-color: #fff;
@@ -148,7 +152,7 @@ body {
 .left-page-2{
     background-color: rgb(255, 255, 255);
     width: calc(100% - 50%);
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,7 +200,7 @@ body {
 .right-page-2{
     background-color: rgb(255, 255, 255);
     width: calc(100% - 50%);
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
