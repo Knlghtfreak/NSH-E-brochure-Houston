@@ -67,7 +67,7 @@ body {
 }
 
 .home-page-body {
-  height: 100%;
+  height: min-content;
   width: 50vw;
   background-color: #fff;
 }
