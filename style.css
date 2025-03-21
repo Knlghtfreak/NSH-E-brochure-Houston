@@ -47,7 +47,7 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
-  padding: 10px 20px;
+  padding: 20px 20px;
   cursor: pointer;
   z-index: 10;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .info h2 {
-  padding:30px 0 0 0;
+  padding: 30px 0 0 0;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -127,13 +127,12 @@ body {
 /* page-2-Left-side*/
 
 .page-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-.city-info-page{
+.city-info-page {
   height: 45vw;
   width: 100vw;
   overflow: hidden;
@@ -142,27 +141,27 @@ body {
   gap: 5px;
 }
 
-.left-page-2{
-    width: calc(100% - 50%);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+.left-page-2 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
-.top-page-2{
-    background-image: url(./Asset/Page-2/BG-Half-White.png);
-    width: 100%;
-    flex: 1;
+.top-page-2 {
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+  width: 100%;
+  flex: 1;
 }
 
-.Mid-page-2{
-    width: 100%;
-    flex: 1;
-    display: flex;
-    gap: 5px;
+.Mid-page-2 {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  gap: 5px;
 }
 
 .left-img-2 img {
@@ -177,10 +176,10 @@ body {
   object-fit: cover;
 }
 
-.left-img-2{
-    width: 50%;
-    height: 190px;
-    background-color: aqua;
+.left-img-2 {
+  width: 50%;
+  height: 190px;
+  background-color: aqua;
 }
 
 .Bottom-page-2 img {
@@ -189,68 +188,67 @@ body {
   object-fit: cover;
 }
 
-.right-img-2{
-    width: 50%;
-    height: 190px;
-    background-color: coral;
+.right-img-2 {
+  width: 50%;
+  height: 190px;
+  background-color: coral;
 }
 
-
-.Bottom-page-2{
-    background-color: rgb(92, 92, 92);
-    width: 100%;
-    flex: 1;
+.Bottom-page-2 {
+  background-color: rgb(92, 92, 92);
+  width: 100%;
+  flex: 1;
 }
 
 /* -------------------- */
 
 /* page-2-right-side*/
 
-.right-page-2{
-    background-color: rgb(255, 255, 255);
-    width: calc(100% - 50%);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+.right-page-2 {
+  background-color: rgb(255, 255, 255);
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
-.top-right-2{
-    width: 100%;
-    height: 100%;
-    flex: 1;
+.top-right-2 {
+  width: 100%;
+  height: 100%;
+  flex: 1;
 }
 
-.top-right-2 img{
+.top-right-2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.bottom-right-2{
-    background-image: url(./Asset/Page-2/BG-Black.png);
-    width: 100%;
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.bottom-right-2 {
+  background-image: url(./Asset/Page-2/BG-Black.png);
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.para-tit{
+.para-tit {
   align-content: center;
   width: 28%;
   height: 100%;
 }
 
-.para-txt{
+.para-txt {
   align-content: center;
   width: 60%;
   height: 100%;
 }
 
-.para-tit h2{
+.para-tit h2 {
   margin: 0;
   text-align: left;
   font-size: 24px;
@@ -258,7 +256,7 @@ body {
   color: white;
 }
 
-.para-txt p{
+.para-txt p {
   margin: 15px 0 15px 0;
   text-align: justify;
   font-size: 14px;
@@ -266,7 +264,7 @@ body {
   color: white;
 }
 
-.top-page-2{
+.top-page-2 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -275,15 +273,72 @@ body {
   margin: 0;
 }
 
-.top-page-2 h1{
+.top-page-2 h1 {
   font-size: 24px;
   font-weight: bold;
-  color: black
+  color: black;
 }
 
-.top-page-2 p{
+.top-page-2 p {
   text-align: justify;
   font-weight: 100;
   font-size: 14px;
   color: black;
+}
+
+/* -------------------- */
+
+/* page-3 */
+
+.Neighborhoods-and-map {
+  height: 45vw;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.page-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-page-3{
+  background-color: #4b4a4a;
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-page-3{
+  background-color: #f5f5f5;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-txt{
+  width: 50%;
+  height: 100%;
+  background-color: #774242;
+}
+
+.right-img{
+  width: 50%;
+  height: 100%;
+  background-color: #dd8585;
+}
+
+.bottom-page-3{
+  background-color: #4b4a4a;
+  width: 100%;
+  flex: 0.8;
 }
