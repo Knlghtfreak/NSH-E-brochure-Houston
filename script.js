@@ -1,22 +1,13 @@
 const sliderTrack = document.getElementById("sliderTrack");
-const slides = document.querySelectorAll(".slide");
+const totalSlides = 8;
 let currentSlide = 0;
-let slideWidths = [];
-
-function calculateWidths() {
-  slideWidths = Array.from(slides).map(slide => slide.offsetWidth);
-}
 
 function updateSlider() {
-  let offset = 0;
-  for (let i = 0; i < currentSlide; i++) {
-    offset += slideWidths[i];
-  }
-  sliderTrack.style.transform = `translateX(-${offset}px)`;
+  sliderTrack.style.transform = `translateX(-${currentSlide * 100}%)`;
 }
 
 function nextSlide() {
-  if (currentSlide < slides.length - 1) {
+  if (currentSlide < totalSlides - 1) {
     currentSlide++;
     updateSlider();
   }
@@ -28,6 +19,3 @@ function prevSlide() {
     updateSlider();
   }
 }
-
-window.onload = calculateWidths;
-window.onresize = calculateWidths;
