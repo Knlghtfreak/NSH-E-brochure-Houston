@@ -171,7 +171,6 @@ body {
 .right-img-2 img {
   width: 100%;
   height: 100%;
-
 }
 
 .left-img-2 {
@@ -303,7 +302,7 @@ body {
   align-items: center;
 }
 
-.left-page-3{
+.left-page-3 {
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
@@ -313,7 +312,7 @@ body {
   gap: 5px;
 }
 
-.top-page-3{
+.top-page-3 {
   background-color: #f5f5f5;
   width: 100%;
   flex: 1;
@@ -323,7 +322,7 @@ body {
   gap: 5px;
 }
 
-.left-txt{
+.left-txt {
   width: 50%;
   height: 100%;
   display: flex;
@@ -333,14 +332,14 @@ body {
   background-image: url(./Asset/Page-2/BG-Half-White.png);
 }
 
-.left-txt h1{
+.left-txt h1 {
   font-size: 24px;
   font-weight: bold;
   color: black;
   text-align: left;
 }
 
-.left-txt p{
+.left-txt p {
   margin: 15px 0 15px 0;
   text-align: justify;
   font-size: 14px;
@@ -348,7 +347,7 @@ body {
   color: black;
 }
 
-.right-img{
+.right-img {
   width: 60%;
   height: 100%;
   display: flex;
@@ -358,19 +357,19 @@ body {
   gap: 5px;
 }
 
-.right-img img{
+.right-img img {
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-.bottom-page-3{
+.bottom-page-3 {
   background-color: #4b4a4a;
   width: 100%;
   flex: 1;
 }
 
-.bottom-page-3 img{
+.bottom-page-3 img {
   width: 100%;
   height: 350px;
   object-fit: cover;
@@ -390,21 +389,20 @@ body {
   gap: 5px;
 }
 
-.right-top-page-3{
+.right-top-page-3 {
   width: 100%;
   height: 100%;
   flex: 1;
 }
 
-.right-top-page-3 img{
+.right-top-page-3 img {
   margin: -1px 0 0 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-
-.right-bottom-page-3{
+.right-bottom-page-3 {
   background-image: url(./Asset/Page-2/BG-Black.png);
   width: 100%;
   height: 100%;
@@ -414,7 +412,7 @@ body {
   flex: 1;
 }
 
-.right-bottom-page-3 p{
+.right-bottom-page-3 p {
   margin: 0 50px 0 50px;
   text-align: justify;
   font-size: 14px;
@@ -426,7 +424,7 @@ body {
 
 /* page-4-left-side */
 
-.crafted-to-perfection{
+.crafted-to-perfection {
   width: 100%;
   height: 45vw;
   overflow: hidden;
@@ -441,7 +439,7 @@ body {
   align-items: center;
 }
 
-.left-page-4{
+.left-page-4 {
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
@@ -451,7 +449,7 @@ body {
   gap: 5px;
 }
 
-.top-page-4{
+.top-page-4 {
   width: 100%;
   height: 100%;
   flex: 1;
@@ -462,7 +460,7 @@ body {
   text-align: left;
 }
 
-.right-txt-4{
+.right-txt-4 {
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   display: flex;
   justify-content: space-evenly;
@@ -471,35 +469,34 @@ body {
   height: 100%;
 }
 
-.right-txt-4 h1{
-  margin: 0 100px 0 0 ; 
+.right-txt-4 h1 {
+  margin: 0 100px 0 0;
   font-size: 24px;
   font-weight: bold;
   color: black;
   text-align: left;
 }
 
-.right-txt-4 p{
-  margin:0 40px 0 40px;
+.right-txt-4 p {
+  margin: 0 40px 0 40px;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
   color: black;
 }
 
-.bottom-page-4{
+.bottom-page-4 {
   width: 100%;
   flex: 1;
 }
 
-
-.bottom-page-4 img{
+.bottom-page-4 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.left-img-4 img{
+.left-img-4 img {
   width: 350px;
   /* height: 210px; */
 }
@@ -518,7 +515,7 @@ body {
   gap: 5px;
 }
 
-.right-page-4 img{
+.right-page-4 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -528,7 +525,7 @@ body {
 
 /* page-5-left-side */
 
-.welcome-home{
+.welcome-home {
   width: 100%;
   height: 45vw;
   overflow: hidden;
@@ -543,34 +540,37 @@ body {
   align-items: center;
 }
 
-.left-page-5{
+.left-page-5 {
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4b4a4a;
   gap: 5px;
 }
 
-.top-page-txt-5{
+.top-page-txt-5 {
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   width: 100%;
-  height: 20%;
+  height: 25%;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
   flex: 1;
-  background-color: #f0f0f0;
+  padding: 0 35px 0 35px;
 }
 
-.top-page-txt-5 h1{
+.top-page-txt-5 h1 {
   font-size: 24px;
   font-weight: bold;
   color: black;
   text-align: left;
 }
 
-.top-page-txt-5 p{
-  margin: 0 100px 0 0 ; 
+.top-page-txt-5 p {
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -581,21 +581,261 @@ body {
   height: 80%;
   width: 100%;
   flex: 2;
-  background-color: antiquewhite;
   display: flex;
   gap: 5px;
 }
 
-.left-img-5{
-  width: 50%;
+.left-img-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
   height: 100%;
 }
 
-.right-img-5{
+.left-img-5 img {
+  width: 100%;
+  height: 50%;
+}
+
+.right-img-5 {
   width: 100%;
   height: 100%;
 }
-.right-img-5 img{
+.right-img-5 img {
   width: 100%;
   height: 100%;
+}
+
+/* -------------------- */
+
+/* page-5-right-side */
+
+.right-page-5 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-img-5 {
+  width: 100%;
+  height: 80%;
+  flex: 2;
+}
+
+.top-img-5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-txt-5 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
+  gap: 5px;
+  flex: 0.7;
+  background-image: url(./Asset/Page-2/BG-Black.png);
+}
+
+.bottom-txt-5 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.bottom-txt-5 p {
+  margin: 0 35px 0 35px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+
+/* -------------------- */
+
+/* page-6-left-side */
+
+.kitchen {
+  width: 100%;
+  height: 45vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.left-page-6 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-page-img-6 {
+  width: 100%;
+  height: 50%;
+  flex: 1;
+  background-color: #e6e6e6;
+}
+
+.top-page-img-6 img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: ( 16 / 9 );
+}
+
+.mid-page-6 {
+  width: 100%;
+  height: 50%;
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-img-6 {
+  width: 60%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.left-img-6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-txt-6 h1{
+  padding: 0 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.right-txt-6 p{
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+  padding: 0 20px 0 20px;
+}
+
+.right-txt-6 {
+  width: 40%;
+  height: 100%;
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
+}
+
+/* -------------------- */
+
+/* page-6-right-side */
+
+.right-page-6 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-txt-6{
+  width: 100%;
+  height: 30%;
+  background-image: url(./Asset/Page-2/BG-Black.png);
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-txt-6 h1{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  padding: 0 0 0 20px;
+}
+
+.top-txt-6 p{
+  padding: 0 20px 0 20px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+
+.bottom-img-6{
+  width: 100%;
+  height: 70%;
+  background-color: antiquewhite;
+  flex: 2;
+}
+
+.bottom-img-6 img{
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------------- */
+
+/* page-7-left-side */
+
+.bedroom {
+  width: 100%;
+  height: 45vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.left-page-7 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-page-7 img{
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------- */
+
+/* page-7-right-side */
+
+.right-page-7 {
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top-txt-7{
+  
 }

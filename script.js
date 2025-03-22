@@ -1,5 +1,5 @@
 const sliderTrack = document.getElementById("sliderTrack");
-const totalSlides = 8;
+const totalSlides = 9;
 let currentSlide = 0;
 
 function updateSlider() {
