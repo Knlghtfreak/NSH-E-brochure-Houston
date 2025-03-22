@@ -165,13 +165,13 @@ body {
 
 .left-img-2 img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: cover;
 }
 
 .right-img-2 img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: cover;
 }
 
@@ -361,7 +361,7 @@ body {
 
 .right-img img{
   width: 100%;
-  height: 180px;
+  /* height: 180px; */
 }
 
 .bottom-page-3{
