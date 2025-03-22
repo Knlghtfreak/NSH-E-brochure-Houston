@@ -837,5 +837,40 @@ body {
 }
 
 .top-txt-7{
-  
+  width: 100%;
+  height: 30%;
+  background-image: url(./Asset/Page-2/BG-Black.png);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
 }
+
+.top-txt-7 h1{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  padding: 0 0 0 20px;
+}
+
+.top-txt-7 p{
+  padding: 0 20px 0 20px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+
+.mid-img-7{
+  width: 100%;
+  height: 70%;
+  flex: 2;
+}
+
+.mid-img-7 img{
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------- */
