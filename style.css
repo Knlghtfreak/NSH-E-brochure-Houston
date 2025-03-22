@@ -165,12 +165,12 @@ body {
 
 .left-img-2 img {
   width: 100%;
-  max-height: -webkit-fill-available;
+  height: 100%;
 }
 
 .right-img-2 img {
   width: 100%;
-  max-height: -webkit-fill-available;
+  height: 100%;
 
 }
 
@@ -329,7 +329,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 30px;
+  padding: 20px;
   background-image: url(./Asset/Page-2/BG-Half-White.png);
 }
 
@@ -349,7 +349,7 @@ body {
 }
 
 .right-img{
-  width: 100%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -367,7 +367,7 @@ body {
 .bottom-page-3{
   background-color: #4b4a4a;
   width: 100%;
-  flex: 0.8;
+  flex: 1;
 }
 
 .bottom-page-3 img{
@@ -525,3 +525,77 @@ body {
 }
 
 /* -------------------- */
+
+/* page-5-left-side */
+
+.welcome-home{
+  width: 100%;
+  height: 45vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  gap: 5px;
+}
+
+.page-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-page-5{
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4a4a;
+  gap: 5px;
+}
+
+.top-page-txt-5{
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+  width: 100%;
+  height: 20%;
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
+.top-page-txt-5 h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.top-page-txt-5 p{
+  margin: 0 100px 0 0 ; 
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+}
+
+.mid-page-img-5 {
+  height: 80%;
+  width: 100%;
+  flex: 2;
+  background-color: antiquewhite;
+  display: flex;
+  gap: 5px;
+}
+
+.left-img-5{
+  width: 50%;
+  height: 100%;
+}
+
+.right-img-5{
+  width: 100%;
+  height: 100%;
+}
+.right-img-5 img{
+  width: 100%;
+  height: 100%;
+}
