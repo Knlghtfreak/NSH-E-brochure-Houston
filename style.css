@@ -689,10 +689,10 @@ body {
   background-color: #e6e6e6;
 }
 
-.top-page-img-6 img{
+.top-page-img-6 img {
   width: 100%;
   height: 100%;
-  aspect-ratio: ( 16 / 9 );
+  aspect-ratio: (16 / 9);
 }
 
 .mid-page-6 {
@@ -717,7 +717,7 @@ body {
   height: 100%;
 }
 
-.right-txt-6 h1{
+.right-txt-6 h1 {
   padding: 0 0 0 20px;
   font-size: 24px;
   font-weight: bold;
@@ -725,7 +725,7 @@ body {
   text-align: center;
 }
 
-.right-txt-6 p{
+.right-txt-6 p {
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -743,7 +743,101 @@ body {
   flex-direction: column;
 }
 
-/* -------------------- */
+/*----------page-5-slider-container---------*/
+
+.page-5-slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.page-5-slide-img {
+  /* position: absolute; */
+  width: 100%;
+  flex-shrink: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider-track-page-5 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.page-5-slider-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.img-1-PG-5 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-1-PG-5 {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Common styles for both arrows */
+.arrow-left-5,
+.arrow-right-5 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+/* Individual positioning */
+.arrow-left-5 {
+  left: 50px;
+}
+
+.arrow-right-5 {
+  right: 50px;
+}
+
+/* Show arrows on hover of the whole slider container */
+.page-5-slider-container:hover .arrow-left-5,
+.page-5-slider-container:hover .arrow-right-5 {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Optional: Styling for the button wrapper (already provided, just cleaner) */
+.page-5-slider-container button {
+  width: 50px;
+  height: 50px;
+  padding: 0 3px 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+
+
+/* ----------------------------------------- */
 
 /* page-6-right-side */
 
@@ -757,7 +851,7 @@ body {
   gap: 5px;
 }
 
-.top-txt-6{
+.top-txt-6 {
   width: 100%;
   height: 30%;
   background-image: url(./Asset/Page-2/BG-Black.png);
@@ -768,14 +862,14 @@ body {
   flex: 1;
 }
 
-.top-txt-6 h1{
+.top-txt-6 h1 {
   font-size: 24px;
   font-weight: 400;
   color: white;
   padding: 0 0 0 20px;
 }
 
-.top-txt-6 p{
+.top-txt-6 p {
   padding: 0 20px 0 20px;
   text-align: justify;
   font-size: 14px;
@@ -783,14 +877,14 @@ body {
   color: white;
 }
 
-.bottom-img-6{
+.bottom-img-6 {
   width: 100%;
   height: 70%;
   background-color: antiquewhite;
   flex: 2;
 }
 
-.bottom-img-6 img{
+.bottom-img-6 img {
   width: 100%;
   height: 100%;
 }
@@ -817,7 +911,7 @@ body {
   align-items: center;
 }
 
-.left-page-7 img{
+.left-page-7 img {
   width: 100%;
   height: 100%;
 }
@@ -836,7 +930,7 @@ body {
   gap: 5px;
 }
 
-.top-txt-7{
+.top-txt-7 {
   width: 100%;
   height: 30%;
   background-image: url(./Asset/Page-2/BG-Black.png);
@@ -847,14 +941,14 @@ body {
   flex-direction: column;
 }
 
-.top-txt-7 h1{
+.top-txt-7 h1 {
   font-size: 24px;
   font-weight: 400;
   color: white;
   padding: 0 0 0 20px;
 }
 
-.top-txt-7 p{
+.top-txt-7 p {
   padding: 0 20px 0 20px;
   text-align: justify;
   font-size: 14px;
@@ -862,13 +956,13 @@ body {
   color: white;
 }
 
-.mid-img-7{
+.mid-img-7 {
   width: 100%;
   height: 70%;
   flex: 2;
 }
 
-.mid-img-7 img{
+.mid-img-7 img {
   width: 100%;
   height: 100%;
 }
@@ -886,7 +980,7 @@ body {
   gap: 5px;
 }
 
-.left-page-8{
+.left-page-8 {
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
@@ -896,18 +990,18 @@ body {
   gap: 5px;
 }
 
-.top-img-8{
+.top-img-8 {
   width: 100%;
   height: 70%;
   flex: 1;
 }
 
-.top-img-8 img{
+.top-img-8 img {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
 
-.mid-txt-8{
+.mid-txt-8 {
   width: 100%;
   height: 30%;
   flex: 061;
@@ -918,18 +1012,18 @@ body {
   gap: 5px;
 }
 
-.mid-left-img-8{
+.mid-left-img-8 {
   width: 50%;
   height: 100%;
   background-color: #f5f5f5;
 }
 
-.mid-left-img-8 img{
+.mid-left-img-8 img {
   width: 100%;
   height: 100%;
 }
 
-.mid-left-txt-8{
+.mid-left-txt-8 {
   width: 50%;
   height: 100%;
   background-image: url(./Asset/Page-2/BG-Half-White.png);
@@ -940,14 +1034,14 @@ body {
   padding: 0 20px 0 20px;
 }
 
-.mid-left-txt-8 h1{
+.mid-left-txt-8 h1 {
   font-size: 24px;
   font-weight: 700;
   color: black;
   padding: 0 0 0 20px;
 }
 
-.mid-left-txt-8 p{
+.mid-left-txt-8 p {
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -959,7 +1053,7 @@ body {
 
 /* page-8-right-side */
 
-.right-page-8{
+.right-page-8 {
   width: calc(100% - 50%);
   height: 100%;
   display: flex;
@@ -969,7 +1063,7 @@ body {
   gap: 5px;
 }
 
-.right-page-8 img{
+.right-page-8 img {
   width: 100%;
   aspect-ratio: 10/10;
 }
@@ -977,7 +1071,6 @@ body {
 /* ------------------- */
 
 /* page-9-side */
-
 
 .thank-you-page {
   height: 45vw;
@@ -1013,7 +1106,7 @@ body {
   flex-direction: column;
 }
 
-.logo-txt-9{
+.logo-txt-9 {
   width: 100%;
   height: 70%;
   display: flex;
@@ -1022,25 +1115,25 @@ body {
   flex-direction: column;
 }
 
-.logo-txt-9 img{
+.logo-txt-9 img {
   width: 30%;
   aspect-ratio: 4/2;
 }
 
-.logo-txt-9 h1{
+.logo-txt-9 h1 {
   font-size: 24px;
   font-weight: 700;
   color: white;
 }
 
-.logo-txt-9 p{
+.logo-txt-9 p {
   text-align: center;
   font-size: 14px;
   font-weight: 100;
   color: white;
 }
 
-.disclaimer{
+.disclaimer {
   text-align: center;
   font-size: 14px;
   font-weight: 100;
