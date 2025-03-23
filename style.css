@@ -956,3 +956,22 @@ body {
 }
 
 /* ------------------- */
+
+/* page-8-right-side */
+
+.right-page-8{
+  width: calc(100% - 50%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-page-8 img{
+  width: 100%;
+  aspect-ratio: 10/10;
+}
+
+/* ------------------- */
