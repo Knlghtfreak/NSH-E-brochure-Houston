@@ -427,8 +427,8 @@ body {
 /* page-4-left-side */
 
 .crafted-to-perfection {
-  width: 100%;
-  height: 50vw;
+  height: 45vw;
+  width: 100vw;
   overflow: hidden;
   background-color: #fff;
   display: flex;
