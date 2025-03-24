@@ -468,7 +468,7 @@ body {
   flex-direction: column;
   height: 100%;
   padding: 20px;
-
+  flex:1;
 }
 
 .right-txt-4 h1 {
@@ -495,7 +495,8 @@ body {
   object-fit: cover;
 }
 .left-img-4 {
-  min-width: 50%;
+  width: 100%;
+  flex: 1;
 }
 
 .left-img-4 img {
