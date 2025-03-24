@@ -166,16 +166,18 @@ body {
 .left-img-2 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .right-img-2 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .left-img-2 {
   width: 50%;
-  height: 190px;
+  min-height: 190px;
   background-color: aqua;
 }
 
@@ -187,7 +189,7 @@ body {
 
 .right-img-2 {
   width: 50%;
-  height: 190px;
+  min-height: 190px;
   background-color: coral;
 }
 
@@ -359,7 +361,7 @@ body {
 
 .right-img img {
   width: 100%;
-  height: 180px;
+  min-height: 180px;
   object-fit: cover;
 }
 
@@ -371,7 +373,7 @@ body {
 
 .bottom-page-3 img {
   width: 100%;
-  height: 350px;
+  min-height: 350px;
   object-fit: cover;
 }
 
@@ -495,9 +497,12 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.left-img-4 {
+  min-width: 50%;
+}
 
 .left-img-4 img {
-  width: 350px;
+  width: 100%;
   /* height: 210px; */
 }
 
@@ -596,6 +601,7 @@ body {
 .left-img-5 img {
   width: 100%;
   height: 50%;
+  object-fit: cover;
 }
 
 .right-img-5 {
@@ -605,6 +611,7 @@ body {
 .right-img-5 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /* -------------------- */
@@ -630,6 +637,7 @@ body {
 .top-img-5 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .bottom-txt-5 {
@@ -693,6 +701,7 @@ body {
   width: 100%;
   height: 100%;
   aspect-ratio: (16 / 9);
+  object-fit: cover;
 }
 
 .mid-page-6 {
@@ -715,6 +724,7 @@ body {
 .left-img-6 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .right-txt-6 h1 {
@@ -887,6 +897,7 @@ body {
 .bottom-img-6 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /* -------------------- */
@@ -914,6 +925,7 @@ body {
 .left-page-7 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /* ------------------- */
@@ -965,6 +977,7 @@ body {
 .mid-img-7 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /* ------------------- */
@@ -999,6 +1012,7 @@ body {
 .top-img-8 img {
   width: 100%;
   aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .mid-txt-8 {
@@ -1021,6 +1035,7 @@ body {
 .mid-left-img-8 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .mid-left-txt-8 {
@@ -1066,6 +1081,7 @@ body {
 .right-page-8 img {
   width: 100%;
   aspect-ratio: 10/10;
+  object-fit: cover;
 }
 
 /* ------------------- */
@@ -1118,6 +1134,7 @@ body {
 .logo-txt-9 img {
   width: 30%;
   aspect-ratio: 4/2;
+  object-fit: cover;
 }
 
 .logo-txt-9 h1 {
