@@ -61,12 +61,6 @@ body {
 
 /* page-1 */
 
-.page-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .home-page-body {
   height: 45vw;
   width: 50vw;
@@ -125,11 +119,6 @@ body {
 
 /* page-2-Left-side*/
 
-.page-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .city-info-page {
   height: 45vw;
@@ -141,63 +130,71 @@ body {
 }
 
 .left-page-2 {
-  width: calc(100% - 50%);
-  height: 100%;
+  width: calc(100% - 50%);  /* Takes up half the width of the container */
+  height: 100%;  /* Set height as 45% of viewport width */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column;  /* Stack child elements vertically */
+  justify-content: space-between;  /* Distribute space between children */
   align-items: center;
-  gap: 5px;
+  gap: 5px;  /* Adds spacing between children */
+}
+
+.PGH2 {
+  width: 100%;  /* Ensures that child divs take up the full width of the parent */
+  height: 100%;  /* Ensure that child divs match the height of the parent */
 }
 
 .top-page-2 {
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   width: 100%;
-  flex: 1;
+  height: 33%;  /* Adjust the height for the top section */
+  background-size: cover;  /* Ensure background image covers the area */
+  background-position: center;  /* Center the background image */
 }
 
 .Mid-page-2 {
+  display: flex;  /* Use flexbox for side-by-side image containers */
+  gap: 5px;  /* Space between left and right images */
   width: 100%;
-  flex: 1;
-  display: flex;
-  gap: 5px;
+  height: 33%;  /* Set height to 1/3 of the parent container */
 }
 
-.left-img-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.left-img-2, .right-img-2 {
+  width: 50%;  /* Each image container takes up 50% width */
+  min-height: 190px;  /* Set minimum height for images */
+  overflow: hidden;  /* Prevents overflow if the image is too large */
 }
 
-.right-img-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.left-img-2 img, .right-img-2 img {
+  width: 100%;  /* Images take up the full width of the containers */
+  height: 100%;  /* Ensure images fill the height of the container */
+  object-fit: cover;  /* Scale images without distortion */
 }
 
-.left-img-2 {
-  width: 50%;
-  min-height: 190px;
-  background-color: aqua;
+.Bottom-page-2 {
+  width: 100%;  /* Ensure the bottom section takes up full width */
+  height: 33%;  /* Adjust the height of the bottom section */
+}
+
+.Bottom-page-2 img {
+  width: 100%;  /* Make sure image fills the container */
+  height: 100%;  /* Ensure image fills the container */
+  object-fit: cover;  /* Scale the image without distortion */
+}
+
+.Bottom-page-2 {
+  width: 100%;
+  height: 33%;  /* Bottom section takes up the last 1/3 */
+  background-color: rgb(92, 92, 92);
 }
 
 .Bottom-page-2 img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;  /* Ensure image fits without distortion */
 }
 
-.right-img-2 {
-  width: 50%;
-  min-height: 190px;
-  background-color: coral;
-}
 
-.Bottom-page-2 {
-  background-color: rgb(92, 92, 92);
-  width: 100%;
-  flex: 2;
-}
 
 /* -------------------- */
 
@@ -266,10 +263,10 @@ body {
 
 .top-page-2 {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
   flex-direction: column;
-  padding: 0 50px 0 50px;
+  padding: 20px;
   margin: 0;
 }
 
