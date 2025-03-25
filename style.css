@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 0;
-  font-weight: bold;
+  font-weight: 400;
   aspect-ratio: 16/9;
   overflow: hidden;
 }
@@ -108,16 +108,16 @@ body {
 }
 
 .logo h1 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 400;
   color: black;
 }
 
 .info h2 {
   padding: 30px 0 0 0;
   text-align: center;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 400;
   color: black;
 }
 
@@ -251,7 +251,7 @@ body {
   margin: 0;
   text-align: left;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   color: white;
 }
 
@@ -274,7 +274,7 @@ body {
 
 .top-page-2 h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: black;
 }
 
@@ -336,7 +336,7 @@ body {
 
 .left-txt h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: black;
   text-align: left;
 }
@@ -473,7 +473,7 @@ body {
 
 .right-txt-4 h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: black;
 }
 
@@ -568,7 +568,7 @@ body {
 
 .top-page-txt-5 h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: black;
   text-align: left;
 }
@@ -652,7 +652,7 @@ body {
 
 .bottom-txt-5 h2 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   text-align: center;
 }
@@ -728,7 +728,7 @@ body {
 .right-txt-6 h1 {
   padding: 0 0 0 20px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
   color: black;
   text-align: center;
 }
@@ -1049,7 +1049,7 @@ body {
 
 .mid-left-txt-8 h1 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: black;
   padding: 0 0 0 20px;
 }
