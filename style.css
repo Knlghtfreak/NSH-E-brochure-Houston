@@ -86,12 +86,12 @@ body {
 }
 
 .logo {
-  padding: 70px 0 0 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex: 1;
+  padding: 50px;
 }
 
 .logo-and-info {
@@ -102,17 +102,20 @@ body {
 }
 
 .logo h1 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 400;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .info h2 {
-  padding: 30px 0 0 0;
   text-align: center;
   font-size: 24px;
   font-weight: 400;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 /* -------------------- */
@@ -239,7 +242,10 @@ body {
 }
 
 .para-txt {
+  display: flex;
+  justify-content: space-evenly;
   align-content: center;
+  flex-direction: column;
   width: 60%;
   height: 100%;
 }
@@ -263,8 +269,8 @@ body {
 
 .top-page-2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
   flex-direction: column;
   padding: 20px;
   margin: 0;
@@ -414,6 +420,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+  padding: 20px;
 }
 
 .right-bottom-page-3 p {
@@ -468,6 +475,7 @@ body {
 .right-txt-4 {
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
   height: 100%;
   padding: 20px;
@@ -565,7 +573,7 @@ body {
   height: 25%;
   align-content: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
   flex: 1;
@@ -650,10 +658,11 @@ body {
   width: 100%;
   height: 20%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
   gap: 5px;
+  padding: 20px;
   flex: 0.7;
   background-image: url(./Asset/Page-2/BG-Black.png);
 }
@@ -751,11 +760,12 @@ body {
 }
 
 .right-txt-6 {
+  padding: 20px;
   width: 40%;
   height: 100%;
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
 }
@@ -872,17 +882,17 @@ body {
   height: 30%;
   background-image: url(./Asset/Page-2/BG-Black.png);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
   flex: 1;
+  padding: 20px;
 }
 
 .top-txt-6 h1 {
   font-size: 24px;
   font-weight: 400;
   color: white;
-  padding: 0 0 0 20px;
 }
 
 .top-txt-6 p {
@@ -955,16 +965,16 @@ body {
   background-image: url(./Asset/Page-2/BG-Black.png);
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
+  padding: 20px;
 }
 
 .top-txt-7 h1 {
   font-size: 24px;
   font-weight: 400;
   color: white;
-  padding: 0 0 0 20px;
 }
 
 .top-txt-7 p {
@@ -1051,7 +1061,7 @@ body {
   height: 100%;
   background-image: url(./Asset/Page-2/BG-Half-White.png);
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: last baseline;
   flex-direction: column;
   padding: 20px;
