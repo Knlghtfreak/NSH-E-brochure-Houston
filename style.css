@@ -256,7 +256,8 @@ body {
 }
 
 .para-txt p {
-  margin: 15px 0 15px 0;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -279,6 +280,8 @@ body {
 }
 
 .top-page-2 p {
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-weight: 100;
   font-size: 14px;
@@ -342,7 +345,8 @@ body {
 }
 
 .left-txt p {
-  margin: 15px 0 15px 0;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -415,7 +419,8 @@ body {
 }
 
 .right-bottom-page-3 p {
-  margin: 0 50px 0 50px;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -478,6 +483,8 @@ body {
 }
 
 .right-txt-4 p {
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -574,6 +581,8 @@ body {
 }
 
 .top-page-txt-5 p {
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -658,7 +667,8 @@ body {
 }
 
 .bottom-txt-5 p {
-  margin: 0 35px 0 35px;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -738,7 +748,8 @@ body {
   font-size: 14px;
   font-weight: 100;
   color: black;
-  padding: 0 20px 0 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .right-txt-6 {
@@ -878,7 +889,8 @@ body {
 }
 
 .top-txt-6 p {
-  padding: 0 20px 0 20px;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
@@ -959,7 +971,8 @@ body {
 }
 
 .top-txt-7 p {
-  padding: 0 20px 0 20px;
+  padding: 0;
+  margin: 0;
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
