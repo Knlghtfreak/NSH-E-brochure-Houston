@@ -21,6 +21,16 @@ function prevSlide() {
   }
 }
 
+// Add event listener for keyboard arrow keys
+document.addEventListener("keydown", function(event) {
+  if (event.key === "ArrowRight") {
+    nextSlide(); // Move to the next slide
+  } else if (event.key === "ArrowLeft") {
+    prevSlide(); // Move to the previous slide
+  }
+});
+
+
 
 
 // -----------------------------------------------------------//
