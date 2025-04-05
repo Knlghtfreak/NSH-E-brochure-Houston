@@ -351,6 +351,7 @@ body {
 }
 
 .top-page-3 {
+  overflow: hidden;
   background-color: #f5f5f5;
   width: 100%;
   height: 50%;
@@ -431,8 +432,7 @@ body {
 
 .right-top-page-3 {
   width: 100%;
-  height: 100%;
-  flex: 1;
+  height: 70%;
 }
 
 .right-top-page-3 img {
@@ -449,7 +449,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
   padding: 20px;
 }
 
