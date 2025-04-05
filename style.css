@@ -562,10 +562,38 @@ body {
   gap: 5px;
 }
 
-.right-page-4 img {
+.txt-4{
+  background-image: url(./Asset/Page-2/BG-Black.png);
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.txt-4 h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.txt-4 p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.top-img-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+  ;
 }
 
 /* -------------------- */
