@@ -1235,9 +1235,9 @@ body {
   gap: 5px;
 }
 
-.top-txt-10{
+.top-txt-10 {
   width: 100%;
-  height: 25%;
+  height: 30%;
   background-image: url(./Asset/Page-2/BG-Black.png);
   display: flex;
   justify-content: space-evenly;
@@ -1246,32 +1246,32 @@ body {
   flex-direction: column;
 }
 
-.top-txt-10 h1{
+.top-txt-10 h1 {
   font-size: 24px;
   font-weight: 400;
   color: white;
 }
 
-.top-txt-10 p{
+.top-txt-10 p {
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
   color: white;
 }
 
-.mid-img-10{
+.mid-img-10 {
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
 
-.mid-img-10 img{
+.mid-img-10 img {
   width: 100%;
   height: 100%;
 }
 
-.bottom-txt-10{
+.bottom-txt-10 {
   width: 100%;
-  height: 25%;
+  height: 30%;
   background-image: url(./Asset/Page-2/BG-Black.png);
   display: flex;
   justify-content: space-evenly;
@@ -1280,19 +1280,67 @@ body {
   flex-direction: column;
 }
 
-.bottom-txt-10 h2{
+.bottom-txt-10 h2 {
   font-size: 24px;
   font-weight: 400;
   color: white;
 }
 
-.bottom-txt-10 p{
+.bottom-txt-10 p {
   text-align: justify;
   font-size: 14px;
   font-weight: 100;
   color: white;
 }
 
+/* ------------------- */
+
+/* page-right-10 */
+
+.right-page-10 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.top-txt-10-R {
+  width: 100%;
+  height: 30%;
+  background-image: url(./Asset/Page-2/BG-Half-White.png);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: last baseline;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.top-txt-10-R h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+.top-txt-10-R p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+}
+
+.mid-img-10-R {
+  width: 100%;
+  height: 70%;
+}
+
+.mid-img-10-R img {
+  width: 100%;
+  height: 100%;
+}
 /* ------------------- */
 
 @media screen and (max-width: 1440px) {
@@ -1306,5 +1354,53 @@ body {
   .city-info-page,
   .home-page-body {
     height: 100vh;
+  }
+}
+
+/* 2K Screens (2560x1440) */
+@media (min-width: 2000px) and (max-width: 3000px) {
+  h1,
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* 4K Screens (3840x2160) */
+@media (min-width: 3001px) {
+  h1,
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  h1,
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
   }
 }
