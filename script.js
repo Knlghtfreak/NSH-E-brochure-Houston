@@ -1,6 +1,6 @@
 // Main slider
 const mainSliderTrack = document.getElementById("sliderTrack");
-const mainTotalSlides = 9;
+const mainTotalSlides = 10;
 let mainCurrentSlide = 0;
 
 function updateMainSlider() {
